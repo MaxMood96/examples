@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM python:3-slim
+FROM python:3.13.0rc2-slim
 
 COPY . /dns-backend
 WORKDIR /dns-backend
